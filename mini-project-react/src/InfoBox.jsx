@@ -27,7 +27,7 @@ return(
       />
       <CardContent className="cardContent">
         <Typography  gutterBottom variant="h5" component="div">
-          {info.city}{" "}{info.humidity > 80 ? < ThunderstormIcon /> : info.temp >15 ? <WbSunnyIcon/> : <AcUnitIcon/>}
+          {info.city}{" "}{info.humidity > 80 ? < ThunderstormIcon /> : info.temp >30? <WbSunnyIcon/> : <AcUnitIcon/>}
         </Typography>
         <Typography variant="body2" color="text.secondary">
          <p>Temperature={info.temp}&deg;C</p>
