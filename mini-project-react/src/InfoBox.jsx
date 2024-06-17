@@ -22,7 +22,7 @@ return(
          <Card sx={{ maxWidth: 360 }}>
       <CardMedia
         sx={{ height: 150 }}
-        image={info.humidity > 80 ? RAIN_URL : info.temp >15 ? HOT_URL : COLD_URL}
+        image={info.humidity > 80 ? RAIN_URL : info.temp >30 ? HOT_URL : COLD_URL}
         title="green iguana"
       />
       <CardContent className="cardContent">
